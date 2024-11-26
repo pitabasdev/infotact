@@ -6,6 +6,22 @@ Description: Extech - IT Solution & Technology HTML Template<
 Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
+.image-wrapper {
+  display: inline-block;
+}
+
+/* Mobile view - Div displayed as block */
+@media (max-width: 768px) {
+  .image-wrapper {
+    display: block;
+    margin-top: 10px; /* Optional: Add some space between the images */
+  }
+
+  .image-wrapper img {
+    display: inline-block;
+    margin-bottom: 10px; /* Optional: Add space between the images */
+  }
+}
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rajdhani:wght@300;400;500;600;700&display=swap");
 :root {
   --body: #fff;
